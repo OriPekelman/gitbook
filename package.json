@@ -23,7 +23,7 @@
         "gitbook-plugin-livereload": "0.0.1",
         "chokidar": "~1.0.1",
         "send": "0.2.0",
-        "tiny-lr": "0.1.5",
+        "tiny-lr": "1.0.5",
         "tmp": "0.0.24",
         "crc": "3.2.1",
         "bash-color": "0.0.3",
