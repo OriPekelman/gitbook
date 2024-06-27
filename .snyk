@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - gitbook-parsers > lodash:
+        patched: '2024-06-27T06:26:21.063Z'
+        id: 'npm:lodash:20180130'
+        path: gitbook-parsers > lodash
+    - gitbook-parsers > gitbook-asciidoc > lodash:
+        patched: '2024-06-27T06:26:21.063Z'
+        id: 'npm:lodash:20180130'
+        path: gitbook-parsers > gitbook-asciidoc > lodash
+    - gitbook-parsers > gitbook-markdown > lodash:
+        patched: '2024-06-27T06:26:21.063Z'
+        id: 'npm:lodash:20180130'
+        path: gitbook-parsers > gitbook-markdown > lodash
+    - gitbook-parsers > gitbook-restructuredtext > lodash:
+        patched: '2024-06-27T06:26:21.063Z'
+        id: 'npm:lodash:20180130'
+        path: gitbook-parsers > gitbook-restructuredtext > lodash
+    - gitbook-parsers > gitbook-asciidoc > cheerio > lodash:
+        patched: '2024-06-27T06:26:21.063Z'
+        id: 'npm:lodash:20180130'
+        path: gitbook-parsers > gitbook-asciidoc > cheerio > lodash
+    - gitbook-parsers > gitbook-restructuredtext > cheerio > lodash:
+        patched: '2024-06-27T06:26:21.063Z'
+        id: 'npm:lodash:20180130'
+        path: gitbook-parsers > gitbook-restructuredtext > cheerio > lodash
